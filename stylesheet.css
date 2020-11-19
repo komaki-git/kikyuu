@@ -1,0 +1,35 @@
+body {
+  background-image: url("C:/Users/user/Desktop/work/atom/pic./bgi.jpg");
+  background-size: cover;
+  background-colo: #464646;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: absolute;
+}
+
+
+#kikyu_test {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  left: 900px;
+  top: 0px;
+  transition: 60s;
+}
+
+#kikyu_test.active {
+  height: 250px;
+  width: 250px;
+  position: relative;
+  left: 0px;
+  top: 50px;
+  transition: 60s;
+}
+
+.anime_test-btn {
+    margin-top:  10px;
+    display:  inline-block;
+    padding:  550px 10px;
+    border: solid 1px;
+    cursor:  pointer;
+}
