@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>asdfa</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="pic\skyfes-tonami-768x403.png" id="kikyu_test" class="active">
+      </div>
+  <script type="text/javascript">
+  function clickTest() {
+    target = document.getElementById("kikyu_test");
+    if (target.className == null || target.className=="") {
+      target.className = "active";
+    } else {
+      target.className = "";
+    }
+  }
+  </script>
+    </header>
+    <div class="anime_test-btn" onclick="clickTest();">
+  ボタン
+</div>
+  </body>
+</html>
